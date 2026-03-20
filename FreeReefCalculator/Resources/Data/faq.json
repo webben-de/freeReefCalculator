@@ -1,0 +1,98 @@
+[
+  {
+    "id": "ph-ideal",
+    "category": "Water Parameters",
+    "question": "What is the ideal pH for a reef tank?",
+    "answer": "The recommended pH range for a marine reef aquarium is 8.1–8.3. Stability is more important than an exact value — avoid swings greater than 0.2 units per day. Low pH (below 7.9) inhibits calcification in corals and is often caused by excess CO₂."
+  },
+  {
+    "id": "calcium-range",
+    "category": "Water Parameters",
+    "question": "What are ideal calcium levels?",
+    "answer": "Target calcium (Ca²⁺): 380–450 mg/L, ideally around 420 mg/L. Natural seawater contains approximately 412 mg/L. Calcium is essential for coral skeleton formation (calcification)."
+  },
+  {
+    "id": "alkalinity-range",
+    "category": "Water Parameters",
+    "question": "What is the ideal alkalinity (KH)?",
+    "answer": "Alkalinity (KH / dKH) should be maintained at 7–11 dKH (2.5–3.9 meq/L). Natural seawater is ~7 dKH. Higher KH (8–10) supports coral growth but requires more precise calcium dosing to stay balanced. Avoid swings greater than 1 dKH per day."
+  },
+  {
+    "id": "magnesium-range",
+    "category": "Water Parameters",
+    "question": "What is the correct magnesium level?",
+    "answer": "Magnesium (Mg²⁺) should be 1250–1350 mg/L, with natural seawater at ~1280 mg/L. Low Mg makes it difficult to maintain Ca and KH levels, as magnesium competes with calcium in precipitation reactions."
+  },
+  {
+    "id": "salinity-range",
+    "category": "Water Parameters",
+    "question": "What salinity should I target?",
+    "answer": "Natural seawater is 35 ppt (S.G. 1.025). For reef tanks, 34–36 ppt (S.G. 1.023–1.026) is acceptable. Stability is key — evaporation causes S.G. to rise, so top off with freshwater (RO/DI) daily."
+  },
+  {
+    "id": "nitrate-range",
+    "category": "Water Parameters",
+    "question": "How much nitrate is acceptable?",
+    "answer": "For SPS (small polyp stony) corals: below 5 mg/L (ideally 1–3 mg/L). For LPS and soft corals: up to 10–20 mg/L is usually tolerated. Fish-only systems: up to 40 mg/L. Nitrate is controlled by refugia, deep sand beds, live rock, and protein skimming."
+  },
+  {
+    "id": "phosphate-range",
+    "category": "Water Parameters",
+    "question": "How much phosphate is acceptable?",
+    "answer": "Phosphate (PO₄³⁻) should be kept below 0.1 mg/L for SPS reefs, ideally 0.01–0.05 mg/L. LPS: up to 0.1 mg/L. High phosphate inhibits calcification and can lead to algae blooms. GFO (granular ferric oxide) and lanthanum chloride are common reduction methods."
+  },
+  {
+    "id": "temperature-range",
+    "category": "Water Parameters",
+    "question": "What temperature is best for a reef tank?",
+    "answer": "Most reef tanks are kept at 24–26°C (75–79°F). Stability within ±0.5°C per day is crucial. Higher temperatures reduce dissolved oxygen and can stress coral. Chillers or fans prevent overheating in summer."
+  },
+  {
+    "id": "ammonia",
+    "category": "Water Parameters",
+    "question": "How dangerous is ammonia (NH₃/NH₄)?",
+    "answer": "Ammonia should always be 0 mg/L in an established tank. Even 0.25 mg/L is toxic to fish and invertebrates. It's primarily a concern during the nitrogen cycle (tank cycling) or after adding too many fish at once."
+  },
+  {
+    "id": "anemone-lighting",
+    "category": "Anemones",
+    "question": "What lighting do anemones need?",
+    "answer": "Most anemones (Entacmaea quadricolor, Heteractis magnifica, Stichodactyla species) require strong lighting, typically 150–300 µmol/m²/s PAR. LED fixtures that can deliver high PAR are essential. Carpet anemones (Stichodactyla) need especially intense light."
+  },
+  {
+    "id": "anemone-water-quality",
+    "category": "Anemones",
+    "question": "What water quality do anemones require?",
+    "answer": "Anemones demand pristine water: ammonia/nitrite = 0, nitrate < 5 mg/L, phosphate < 0.05 mg/L. They are more sensitive to water quality than most corals. A mature, stable tank (6+ months) is recommended before adding anemones."
+  },
+  {
+    "id": "anemone-clownfish",
+    "category": "Anemones",
+    "question": "Which clownfish go with which anemones?",
+    "answer": "Common hosting pairs: Amphiprion ocellaris/percula ↔ Heteractis magnifica, Macrodactyla doreensis, Stichodactyla gigantea. A. clarkii is the most adaptable and will host in most anemone species. Note: captive-bred clownfish may not host naturally."
+  },
+  {
+    "id": "aiptasia",
+    "category": "Pests",
+    "question": "How do I get rid of Aiptasia (glass anemones)?",
+    "answer": "Options: (1) Aiptasia-eating animals: peppermint shrimp (Lysmata wurdemanni), copperband butterflyfish, Berghia nudibranchs. (2) Chemical injection: Joe's Juice, AiptasiaX, or saturated lemon juice directly into the oral disc. (3) Boiling water/kalkwasser injection. Natural predators are the most sustainable long-term solution."
+  },
+  {
+    "id": "hair-algae",
+    "category": "Pests",
+    "question": "How do I deal with hair algae (filamentous green algae)?",
+    "answer": "Hair algae is caused by excess nutrients (nitrate > 10, phosphate > 0.1 mg/L). Solutions: (1) Reduce nutrients via skimmer, refugia, GFO. (2) Manual removal. (3) Herbivores: sea urchins (Diadema, Echinometra), lawnmower blennies, tangs (Zebrasoma), turbo snails, emerald crabs."
+  },
+  {
+    "id": "cyano",
+    "category": "Pests",
+    "question": "What is cyanobacteria (red slime) and how do I remove it?",
+    "answer": "Cyanobacteria (often red, blue-green, or brown) thrives in high-nutrient, low-flow areas. Fix: (1) Increase flow over affected areas. (2) Reduce organic waste / improve skimming. (3) Siphon off manually. (4) In severe cases, Chemi-Clean or 3-day blackout. Avoid antibiotics (they harm biological filtration)."
+  },
+  {
+    "id": "dinoflagellates",
+    "category": "Pests",
+    "question": "How do I fight dinoflagellates (dinos)?",
+    "answer": "Dinoflagellates are more difficult than cyanobacteria. Common strategies: (1) Raise nutrients slightly (NO₃ 2–5, PO₄ 0.05–0.1 mg/L) — dinos prefer ultra-low nutrients. (2) 3-day total blackout. (3) Increase flow and biological diversity. (4) Add copepods and microfauna to compete. (5) UV sterilizer. Patience is key — treatment often takes weeks."
+  }
+]

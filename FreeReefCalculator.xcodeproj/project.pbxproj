@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1092CAE242D9AF15A1549611 /* CalculatorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306FA02B50D29FFB42DBEB9B /* CalculatorsView.swift */; };
+		16B6462298FE8196A487A057 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F13F90F30B4CF5D8432BAE9 /* SettingsView.swift */; };
+		1E431FA3FEA118889A61D7F2 /* FAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FBFCC2D256A7A13558017D /* FAQView.swift */; };
+		3540F4845BDB9A9E1D9BB5A1 /* ReminderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C37804B73E8840CD62BE78B /* ReminderListView.swift */; };
+		51680EE54929954D03D93B37 /* ChemCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C224F8A87A9769BBC14C59 /* ChemCalculator.swift */; };
+		55BE96352C7CDE653CFA81FD /* AddParameterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E0ED904A64374B3A8983F /* AddParameterView.swift */; };
+		5697BE13D6FD0DDC8803D153 /* AnimalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26EDD6570632B817D6A5B40 /* AnimalListView.swift */; };
+		5F33A0D956BC676DCB102459 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA61D11E410F5C80695D8D7 /* Animal.swift */; };
+		5FF8A9F0BED2276B95296EC5 /* Tank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F7127985E3DA27E917A7D /* Tank.swift */; };
+		629B0A23130B9CE6DAB9405A /* faq.json in Resources */ = {isa = PBXBuildFile; fileRef = 12C7427DDD93CDE7604DFF6C /* faq.json */; };
+		80568D92F18214F1FDFC2356 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FED198951552391FE75DA2 /* Reminder.swift */; };
+		8C008B80E901782073F6CB04 /* TankListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD932DD8F9EF167201A13A6F /* TankListView.swift */; };
+		9675F8788449522B2E2231E4 /* ParameterHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A646B3B375A5989B6290EE59 /* ParameterHistoryView.swift */; };
+		9794281AAC445BB34804CED5 /* SaltCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FBD3EA1CDB9D48A380381 /* SaltCalculator.swift */; };
+		AA1822A35021B2FAC49A98E5 /* FreeReefCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF98C6351580D89B18C33C0 /* FreeReefCalculatorApp.swift */; };
+		BA889AFC17A45B6C20A95E34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC68EA926A263838A3558F6 /* Assets.xcassets */; };
+		C02CCD1715896AAB90A5E28D /* CameraPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC76587286CEF24311C5233 /* CameraPickerView.swift */; };
+		CE8A035B9963CDF0DEEC6CA4 /* AddEditTankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD36B309FAB1D14A959774B /* AddEditTankView.swift */; };
+		D3EFCF0A0716DEF8D49EEBEB /* WaterParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F9B4019D812B5DD6B86FB9 /* WaterParameter.swift */; };
+		D52BA36FEA477186D8A9373C /* TankDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434E7D01D10DB33061CB74E /* TankDashboardView.swift */; };
+		E442F5D34E33F9B4FFCBE734 /* TankDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB23E2FB56565E57E9E6E3F /* TankDetailView.swift */; };
+		F5DACC00C9A9718A4D5FDAE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827FFFB673D29C867A5CCBD /* ContentView.swift */; };
+		FBB44F20ECA425DA770F792D /* ParameterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1D6FD36AE2B6C5570AAFDA /* ParameterDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		027E0ED904A64374B3A8983F /* AddParameterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddParameterView.swift; sourceTree = "<group>"; };
+		0F13F90F30B4CF5D8432BAE9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		12C7427DDD93CDE7604DFF6C /* faq.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = faq.json; sourceTree = "<group>"; };
+		1827FFFB673D29C867A5CCBD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2CD36B309FAB1D14A959774B /* AddEditTankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditTankView.swift; sourceTree = "<group>"; };
+		306FA02B50D29FFB42DBEB9B /* CalculatorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorsView.swift; sourceTree = "<group>"; };
+		408FBD3EA1CDB9D48A380381 /* SaltCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaltCalculator.swift; sourceTree = "<group>"; };
+		435EF8A354D5757F0A0538FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4D3F7127985E3DA27E917A7D /* Tank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tank.swift; sourceTree = "<group>"; };
+		5BB23E2FB56565E57E9E6E3F /* TankDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TankDetailView.swift; sourceTree = "<group>"; };
+		5CC76587286CEF24311C5233 /* CameraPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPickerView.swift; sourceTree = "<group>"; };
+		5F1D6FD36AE2B6C5570AAFDA /* ParameterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterDetailView.swift; sourceTree = "<group>"; };
+		7C37804B73E8840CD62BE78B /* ReminderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListView.swift; sourceTree = "<group>"; };
+		8434E7D01D10DB33061CB74E /* TankDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TankDashboardView.swift; sourceTree = "<group>"; };
+		87F9B4019D812B5DD6B86FB9 /* WaterParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterParameter.swift; sourceTree = "<group>"; };
+		8CA61D11E410F5C80695D8D7 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		94FED198951552391FE75DA2 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		A646B3B375A5989B6290EE59 /* ParameterHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterHistoryView.swift; sourceTree = "<group>"; };
+		A7FBFCC2D256A7A13558017D /* FAQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQView.swift; sourceTree = "<group>"; };
+		D9C224F8A87A9769BBC14C59 /* ChemCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemCalculator.swift; sourceTree = "<group>"; };
+		DD932DD8F9EF167201A13A6F /* TankListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TankListView.swift; sourceTree = "<group>"; };
+		E125D23F363C2B33ACBD9637 /* FreeReefCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeReefCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF98C6351580D89B18C33C0 /* FreeReefCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeReefCalculatorApp.swift; sourceTree = "<group>"; };
+		F26EDD6570632B817D6A5B40 /* AnimalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListView.swift; sourceTree = "<group>"; };
+		FBC68EA926A263838A3558F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3604D4A504D33D3BD8102767 /* Tanks */ = {
+			isa = PBXGroup;
+			children = (
+				2CD36B309FAB1D14A959774B /* AddEditTankView.swift */,
+				8434E7D01D10DB33061CB74E /* TankDashboardView.swift */,
+				5BB23E2FB56565E57E9E6E3F /* TankDetailView.swift */,
+				DD932DD8F9EF167201A13A6F /* TankListView.swift */,
+			);
+			path = Tanks;
+			sourceTree = "<group>";
+		};
+		478C0552CAC9974795135546 /* Parameters */ = {
+			isa = PBXGroup;
+			children = (
+				027E0ED904A64374B3A8983F /* AddParameterView.swift */,
+				5F1D6FD36AE2B6C5570AAFDA /* ParameterDetailView.swift */,
+				A646B3B375A5989B6290EE59 /* ParameterHistoryView.swift */,
+			);
+			path = Parameters;
+			sourceTree = "<group>";
+		};
+		4F7FC6CB9FFA59AB9F275405 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E125D23F363C2B33ACBD9637 /* FreeReefCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AF4478251FFB3AB99E6DA65 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FBC68EA926A263838A3558F6 /* Assets.xcassets */,
+				715FC48B0DB0952452C118E6 /* Data */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6593EA13A5C7F8674BB04272 /* Animals */ = {
+			isa = PBXGroup;
+			children = (
+				F26EDD6570632B817D6A5B40 /* AnimalListView.swift */,
+			);
+			path = Animals;
+			sourceTree = "<group>";
+		};
+		6BC269811FA13557A6FDD1DA /* Reminders */ = {
+			isa = PBXGroup;
+			children = (
+				7C37804B73E8840CD62BE78B /* ReminderListView.swift */,
+			);
+			path = Reminders;
+			sourceTree = "<group>";
+		};
+		6C4D1929DD94DB00722E4527 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				0F13F90F30B4CF5D8432BAE9 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		715FC48B0DB0952452C118E6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				12C7427DDD93CDE7604DFF6C /* faq.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		8E1AADB22E4560DADB9EBF20 /* FreeReefCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				1827FFFB673D29C867A5CCBD /* ContentView.swift */,
+				EAF98C6351580D89B18C33C0 /* FreeReefCalculatorApp.swift */,
+				435EF8A354D5757F0A0538FB /* Info.plist */,
+				D73544804EE060D73376BCB7 /* Calculators */,
+				B93758365A895A3CE63B0A66 /* Models */,
+				5AF4478251FFB3AB99E6DA65 /* Resources */,
+				9DBA25DF552FFCDFD734C132 /* Views */,
+			);
+			path = FreeReefCalculator;
+			sourceTree = "<group>";
+		};
+		9DBA25DF552FFCDFD734C132 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5CC76587286CEF24311C5233 /* CameraPickerView.swift */,
+				6593EA13A5C7F8674BB04272 /* Animals */,
+				9E0F6ACA6290B75DC05F66B4 /* Calculators */,
+				B05F062FAAFEFEFBABD82330 /* FAQ */,
+				478C0552CAC9974795135546 /* Parameters */,
+				6BC269811FA13557A6FDD1DA /* Reminders */,
+				6C4D1929DD94DB00722E4527 /* Settings */,
+				3604D4A504D33D3BD8102767 /* Tanks */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9E0F6ACA6290B75DC05F66B4 /* Calculators */ = {
+			isa = PBXGroup;
+			children = (
+				306FA02B50D29FFB42DBEB9B /* CalculatorsView.swift */,
+			);
+			path = Calculators;
+			sourceTree = "<group>";
+		};
+		B05F062FAAFEFEFBABD82330 /* FAQ */ = {
+			isa = PBXGroup;
+			children = (
+				A7FBFCC2D256A7A13558017D /* FAQView.swift */,
+			);
+			path = FAQ;
+			sourceTree = "<group>";
+		};
+		B93758365A895A3CE63B0A66 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8CA61D11E410F5C80695D8D7 /* Animal.swift */,
+				94FED198951552391FE75DA2 /* Reminder.swift */,
+				4D3F7127985E3DA27E917A7D /* Tank.swift */,
+				87F9B4019D812B5DD6B86FB9 /* WaterParameter.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CA8815EBC2FA983C49E6D75F = {
+			isa = PBXGroup;
+			children = (
+				8E1AADB22E4560DADB9EBF20 /* FreeReefCalculator */,
+				4F7FC6CB9FFA59AB9F275405 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D73544804EE060D73376BCB7 /* Calculators */ = {
+			isa = PBXGroup;
+			children = (
+				D9C224F8A87A9769BBC14C59 /* ChemCalculator.swift */,
+				408FBD3EA1CDB9D48A380381 /* SaltCalculator.swift */,
+			);
+			path = Calculators;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D39E681F4BFED2BA0C6384B3 /* FreeReefCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57919A05083ACEADBB135FF2 /* Build configuration list for PBXNativeTarget "FreeReefCalculator" */;
+			buildPhases = (
+				F103A2FFAC0288C79572E67E /* Sources */,
+				0C4FF52233AFC03C9315196D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreeReefCalculator;
+			packageProductDependencies = (
+			);
+			productName = FreeReefCalculator;
+			productReference = E125D23F363C2B33ACBD9637 /* FreeReefCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB28B7A4F8CD508DE8153EB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 247548A58F184CCFE5D9DF88 /* Build configuration list for PBXProject "FreeReefCalculator" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CA8815EBC2FA983C49E6D75F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4F7FC6CB9FFA59AB9F275405 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D39E681F4BFED2BA0C6384B3 /* FreeReefCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C4FF52233AFC03C9315196D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA889AFC17A45B6C20A95E34 /* Assets.xcassets in Resources */,
+				629B0A23130B9CE6DAB9405A /* faq.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F103A2FFAC0288C79572E67E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8A035B9963CDF0DEEC6CA4 /* AddEditTankView.swift in Sources */,
+				55BE96352C7CDE653CFA81FD /* AddParameterView.swift in Sources */,
+				5F33A0D956BC676DCB102459 /* Animal.swift in Sources */,
+				5697BE13D6FD0DDC8803D153 /* AnimalListView.swift in Sources */,
+				1092CAE242D9AF15A1549611 /* CalculatorsView.swift in Sources */,
+				C02CCD1715896AAB90A5E28D /* CameraPickerView.swift in Sources */,
+				51680EE54929954D03D93B37 /* ChemCalculator.swift in Sources */,
+				F5DACC00C9A9718A4D5FDAE0 /* ContentView.swift in Sources */,
+				1E431FA3FEA118889A61D7F2 /* FAQView.swift in Sources */,
+				AA1822A35021B2FAC49A98E5 /* FreeReefCalculatorApp.swift in Sources */,
+				FBB44F20ECA425DA770F792D /* ParameterDetailView.swift in Sources */,
+				9675F8788449522B2E2231E4 /* ParameterHistoryView.swift in Sources */,
+				80568D92F18214F1FDFC2356 /* Reminder.swift in Sources */,
+				3540F4845BDB9A9E1D9BB5A1 /* ReminderListView.swift in Sources */,
+				9794281AAC445BB34804CED5 /* SaltCalculator.swift in Sources */,
+				16B6462298FE8196A487A057 /* SettingsView.swift in Sources */,
+				5FF8A9F0BED2276B95296EC5 /* Tank.swift in Sources */,
+				D52BA36FEA477186D8A9373C /* TankDashboardView.swift in Sources */,
+				E442F5D34E33F9B4FFCBE734 /* TankDetailView.swift in Sources */,
+				8C008B80E901782073F6CB04 /* TankListView.swift in Sources */,
+				D3EFCF0A0716DEF8D49EEBEB /* WaterParameter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		138EA43CD26A296980C3E145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7F7RUJC687;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FreeReefCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.freereefcalculator.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		53B83982DDD84F0CFCA802FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		74A4747F7B91FE2E46BBA76B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7F7RUJC687;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FreeReefCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.freereefcalculator.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		827B44EE4DA064FAE9D422AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		247548A58F184CCFE5D9DF88 /* Build configuration list for PBXProject "FreeReefCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				827B44EE4DA064FAE9D422AD /* Debug */,
+				53B83982DDD84F0CFCA802FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		57919A05083ACEADBB135FF2 /* Build configuration list for PBXNativeTarget "FreeReefCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74A4747F7B91FE2E46BBA76B /* Debug */,
+				138EA43CD26A296980C3E145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB28B7A4F8CD508DE8153EB6 /* Project object */;
+}

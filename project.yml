@@ -1,0 +1,57 @@
+name: FreeReefCalculator
+options:
+  bundleIdPrefix: com.freereefcalculator
+  deploymentTarget:
+    iOS: "17.0"
+  defaultConfig: Debug
+  xcodeVersion: "16.0"
+  createIntermediateGroups: true
+
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    DEVELOPMENT_TEAM: ""
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+
+targets:
+  FreeReefCalculator:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - FreeReefCalculator
+    resources:
+      - FreeReefCalculator/Resources
+    settings:
+      base:
+        INFOPLIST_FILE: FreeReefCalculator/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.freereefcalculator.app
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        GENERATE_INFOPLIST_FILE: NO
+    info:
+      path: FreeReefCalculator/Info.plist
+      properties:
+        CFBundleDisplayName: FreeReef
+        CFBundleName: FreeReef
+        CFBundleShortVersionString: "1.0.0"
+        CFBundleVersion: "1"
+        LSRequiresIPhoneOS: true
+        UILaunchScreen:
+          UIColorName: ""
+          UIImageName: ""
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        NSCameraUsageDescription: "Used to take photos of your tanks and animals."
+        NSPhotoLibraryUsageDescription: "Used to import photos of your tanks and animals."
+        NSUserNotificationsUsageDescription: "Used to send reminders for tank maintenance."
+        CFBundleLocalizations:
+          - en
+          - de
